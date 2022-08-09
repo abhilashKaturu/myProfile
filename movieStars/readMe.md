@@ -11,10 +11,12 @@ Output -
 
 3 degrees of separation.
 1: Dwayne Johnson and Priyanka Chopra starred in Baywatch
+
 2: Priyanka Chopra and Prakash Raj starred in Toofan
+
 3: Prakash Raj and Allu Arjun starred in Gangotri
 
 
 
-- IMDb movie database was used to get information about the Movies
+- IMDb movie database was used to get information about the Movies (the full database is too big to be stored in GitHub so a smaller version of it has been stored for demonstration purposes in the /small folder.
 - Breadth-First search algorithm was implemented
