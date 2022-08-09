@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Log In
+{% endblock %}
+
+{% block main %}
+<h5>Buy Stocks</h5>
+<br>
+<p>Please enter the stock symbol</p>
+<form action="/buy" method="post">
+    <div class="form-group">
+        <input autocomplete="off" autofocus class="form-control" name="symbol" maxlength = "15" placeholder="Symbol" type="text">
+    </div>
+    <div class="form-group">
+        <input autocomplete="off" class="form-control" min="1" max = "99999999" name="shares" placeholder="Shares" type="number">
+    </div>
+    <button class="btn btn-primary" type="submit">Buy</button>
+</form>
+
+<br>
+{%if msg %}
+<p style="color: rgb(255, 103, 1); font-size: large;">{{msg}}</p>
+
+{%endif%}
+{% endblock %}

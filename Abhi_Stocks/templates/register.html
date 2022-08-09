@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Register
+{% endblock %}
+
+{% block main %}
+<form action="/register" method="post">
+    <div class="form-group">
+        <input autocomplete="off" autofocus class="form-control" name="ruser" maxlength="30" minlength="4" placeholder="Username"
+            type="text">
+    </div>
+    <div class="form-group">
+        <input class="form-control" name="rpass" maxlength="30" minlength="8" placeholder="Password" type="password">
+    </div>
+    <div class="form-group">
+        <input class="form-control" name="rapass" maxlength="30" minlength="8" placeholder="Password (again)"
+            type="password">
+    </div>
+    <button class="btn btn-primary" type="submit">Register</button>
+</form>
+
+{%if msg %}
+<br>
+
+<p style = "color: rgb(255, 103, 1); font-size: large;">{{msg}}</p>
+
+{%endif%}
+
+
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Quote
+{% endblock %}
+
+{% block main %}
+<h5>Quote Stocks</h5>
+<br>
+<p>Please enter the stock symbol</p>
+<form action="/quote" method="post">
+    <div class="form-group">
+        <input autocomplete="off" autofocus class="form-control" name="sym" maxlength="15" placeholder="Symbol"
+            type="text">
+    </div>
+    
+    <button class="btn btn-primary" type="submit">Log In</button>
+</form>
+
+{%if msg %}
+<br>
+
+<p style="color: rgb(255, 103, 1); font-size: large;">{{msg}}</p>
+
+{%endif%}
+{% endblock %}

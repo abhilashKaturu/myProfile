@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Portfolio
+{% endblock %}
+
+{% block main %}
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Symbol</th>
+            <th>Name</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>TOTAL</th>
+        </tr>
+    </thead>
+    
+    <tbody>
+
+        {% for i in range(aDict|length) %}
+        <tr>
+            <td>{{aDict[i]["stock"]}}</td>
+            <td>{{aDict[i]["name"]}}</td>
+            <td>{{aDict[i]["shares"]}}</td>
+            <td>{{aDict[i]["price"]}}</td>
+            <td>{{aDict[i]["total"]}}</td>
+        </tr>
+        {%endfor%}
+
+        
+
+        <tr>
+            <td><strong>Amount Left</strong></td>
+            <td colspan ="3"></td>
+            <td><strong>{{ttl_cash}}</strong></td>
+        </tr>
+        
+    </tbody>
+</table>
+
+{% endblock %}
