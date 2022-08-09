@@ -18,5 +18,5 @@ Output -
 
 
 
-- IMDb movie database was used to get information about the Movies (the full database is too big to be stored in GitHub so a smaller version of it has been stored for demonstration purposes in the /small folder.
+- IMDb movie database was used to get information about the Movies (the full database is too big to be stored in GitHub so a smaller version of it has been stored for demonstration purposes in the /small folder)
 - Breadth-First search algorithm was implemented
