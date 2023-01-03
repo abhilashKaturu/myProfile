@@ -11,7 +11,9 @@ Name: Betty White
 3 degrees of separation.
 
 1: Dwayne Johnson and Susan Sarandon starred in Snitch
+
 2: Susan Sarandon and Dana Delany starred in Light Sleeper
+
 3: Dana Delany and Betty White starred in Gaia Symphony II
 
 
