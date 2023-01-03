@@ -11,6 +11,7 @@ Name: Allu Arjun
 Output - 
 
 3 degrees of separation.
+
 1: Dwayne Johnson and Priyanka Chopra starred in Baywatch
 
 2: Priyanka Chopra and Prakash Raj starred in Toofan
