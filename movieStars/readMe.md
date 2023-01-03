@@ -5,6 +5,7 @@ Ex:
 Input-
 
 Name: Dwane Johnson
+
 Name: Allu Arjun
 
 Output - 
