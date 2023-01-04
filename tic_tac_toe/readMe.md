@@ -2,3 +2,4 @@ This tic-tac-toe AI that I built using Python will never lose a game (and might 
 
 - Implements the MiniMax algorithm which is a popular algorithm used in game-playing AI's
 - Uses pyGame as the visual interface
+- Feel free to download a give it a try!
