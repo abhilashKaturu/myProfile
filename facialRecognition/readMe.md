@@ -1,1 +1,1 @@
-Facial Recognition with Python
+This my facial recognition project using Python. To use this project, add any images you would like to train the model with to the /facialRecognition folder and then input the file names of the photos into the face_unlock.py program into the "file_name" placeholders located.
