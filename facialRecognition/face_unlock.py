@@ -4,21 +4,21 @@ import cv2
 
 video_capture = cv2.VideoCapture(0)
 
-abhi_image = fr.load_image_file("me.PNG")
-abhi_face_encoding = fr.face_encodings(abhi_image)[0]
+image1 = fr.load_image_file("file_name1.PNG")
+image1_encoding = fr.face_encodings(image1)[0]
 
-lokesh_image = fr.load_image_file("lokesh.PNG")
-lokesh_face_encoding = fr.face_encodings(lokesh_image)[0]
+image2 = fr.load_image_file("file_name2.PNG")
+image2_encoding = fr.face_encodings(image2)[0]
 
-siri_image = fr.load_image_file("siri.PNG")
-siri_face_encoding = fr.face_encodings(siri_image)[0]
+image3 = fr.load_image_file("file_name3.PNG")
+image3_encoding = fr.face_encodings(image3)[0]
 
-mom_image = fr.load_image_file("anusha.PNG")
-mom_face_encoding = fr.face_encodings(mom_image)[0]
+image4 = fr.load_image_file("file_name4.PNG")
+image4_encoding = fr.face_encodings(image4)[0]
 
 
-known_face_encondings = [lokesh_face_encoding, siri_face_encoding, mom_face_encoding, abhi_face_encoding]
-known_face_names = ["Lokesh", "Siri", "Anusha", "Abhi"]
+known_face_encondings = [image1, image2, image3, image4]
+known_face_names = ["face1", "face2", "face3", "face4"]
 
 while True:
     ret, frame = video_capture.read()
