@@ -1,4 +1,4 @@
-In this project, I created a program through which you can check the relation of one movie star to another movie star and how many degrees of seperation they have in between each other. This algorithm will find the most shortest path between the two actors.
+In this project, I created a program through which you can check the relation of one movie star to another movie star and how many degrees of seperation they have in between each other. This algorithm will use BFS to find the shortest path between the two actors.
 
 Ex:
 
